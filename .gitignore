@@ -1,0 +1,33 @@
+# --- Mac System Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Python & Virtual Environments ---
+__pycache__/
+*.pyc
+.Python
+env/
+venv/
+.venv/
+
+# --- Data & Logs (Crucial for Data Engineering) ---
+# Ignore actual data files to prevent bloating the repo or leaking info
+*.csv
+*.xlsx
+*.xls
+*.json
+*.log
+*.sql.gz
+
+# --- Jupyter Notebooks (if you use them) ---
+.ipynb_checkpoints
+
+# --- Environment Variables (Security) ---
+# NEVER commit keys or passwords
+.env
+.env.local
+
+# --- IDE Settings ---
+.vscode/
+.idea/
